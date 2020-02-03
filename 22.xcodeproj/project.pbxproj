@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11251DEF8B00B09B24C4EE45 /* Pods_22_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F57DF2CCB67CA6EB38DE5EE /* Pods_22_MessagesExtension.framework */; };
 		19EEB86223E8881400E9AB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEB86123E8881400E9AB71 /* AppDelegate.swift */; };
+		19EEB86423E88BFA00E9AB71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19EEB86323E88BFA00E9AB71 /* GoogleService-Info.plist */; };
+		19EEB86523E88BFA00E9AB71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19EEB86323E88BFA00E9AB71 /* GoogleService-Info.plist */; };
 		19F22AE423DA044200E418BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F22AE323DA044200E418BF /* Assets.xcassets */; };
 		19F22AEB23DA044200E418BF /* 22 MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19F22AEA23DA044200E418BF /* 22 MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		19F22AF023DA044200E418BF /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F22AEF23DA044200E418BF /* Messages.framework */; };
@@ -45,6 +47,7 @@
 /* Begin PBXFileReference section */
 		13331D282EA0ABDFB150DFDA /* Pods-22.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-22.release.xcconfig"; path = "Target Support Files/Pods-22/Pods-22.release.xcconfig"; sourceTree = "<group>"; };
 		19EEB86123E8881400E9AB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19EEB86323E88BFA00E9AB71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		19F22AE023DA044000E418BF /* 22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F22AE323DA044200E418BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F22AE523DA044200E418BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 				19F22AF423DA044200E418BF /* MainInterface.storyboard */,
 				19F22AF723DA044300E418BF /* Assets.xcassets */,
 				19F22AF923DA044300E418BF /* Info.plist */,
+				19EEB86323E88BFA00E9AB71 /* GoogleService-Info.plist */,
 			);
 			path = "22 MessagesExtension";
 			sourceTree = "<group>";
@@ -229,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F22AE423DA044200E418BF /* Assets.xcassets in Resources */,
+				19EEB86423E88BFA00E9AB71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +243,7 @@
 			files = (
 				19F22AF823DA044300E418BF /* Assets.xcassets in Resources */,
 				19F22AF623DA044200E418BF /* MainInterface.storyboard in Resources */,
+				19EEB86523E88BFA00E9AB71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
