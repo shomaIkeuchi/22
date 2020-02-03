@@ -3,16 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11251DEF8B00B09B24C4EE45 /* Pods_22_MessagesExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F57DF2CCB67CA6EB38DE5EE /* Pods_22_MessagesExtension.framework */; };
+		19EEB86223E8881400E9AB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EEB86123E8881400E9AB71 /* AppDelegate.swift */; };
 		19F22AE423DA044200E418BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F22AE323DA044200E418BF /* Assets.xcassets */; };
 		19F22AEB23DA044200E418BF /* 22 MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 19F22AEA23DA044200E418BF /* 22 MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		19F22AF023DA044200E418BF /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F22AEF23DA044200E418BF /* Messages.framework */; };
 		19F22AF323DA044200E418BF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F22AF223DA044200E418BF /* MessagesViewController.swift */; };
 		19F22AF623DA044200E418BF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F22AF423DA044200E418BF /* MainInterface.storyboard */; };
 		19F22AF823DA044300E418BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F22AF723DA044300E418BF /* Assets.xcassets */; };
+		3EB69BCD2F2DBDEA81B1A2EC /* Pods_22.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C501DE5550BBEFF4921F8969 /* Pods_22.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13331D282EA0ABDFB150DFDA /* Pods-22.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-22.release.xcconfig"; path = "Target Support Files/Pods-22/Pods-22.release.xcconfig"; sourceTree = "<group>"; };
+		19EEB86123E8881400E9AB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F22AE023DA044000E418BF /* 22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F22AE323DA044200E418BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F22AE523DA044200E418BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		19F22AF523DA044200E418BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		19F22AF723DA044300E418BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F22AF923DA044300E418BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB7AAFBDD6AAAEA394A3230 /* Pods-22 MessagesExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-22 MessagesExtension.release.xcconfig"; path = "Target Support Files/Pods-22 MessagesExtension/Pods-22 MessagesExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6F57DF2CCB67CA6EB38DE5EE /* Pods_22_MessagesExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_22_MessagesExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE98511003A25183B70CBD34 /* Pods-22 MessagesExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-22 MessagesExtension.debug.xcconfig"; path = "Target Support Files/Pods-22 MessagesExtension/Pods-22 MessagesExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C501DE5550BBEFF4921F8969 /* Pods_22.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_22.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE32301EF64C00634743B06 /* Pods-22.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-22.debug.xcconfig"; path = "Target Support Files/Pods-22/Pods-22.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F22AF023DA044200E418BF /* Messages.framework in Frameworks */,
+				11251DEF8B00B09B24C4EE45 /* Pods_22_MessagesExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7992EB4A54034E405A0CFA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB69BCD2F2DBDEA81B1A2EC /* Pods_22.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +89,7 @@
 				19F22AF123DA044200E418BF /* 22 MessagesExtension */,
 				19F22AEE23DA044200E418BF /* Frameworks */,
 				19F22AE123DA044000E418BF /* Products */,
+				1DE8D5F7A1C0D242A7CD44AD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				19F22AEF23DA044200E418BF /* Messages.framework */,
+				C501DE5550BBEFF4921F8969 /* Pods_22.framework */,
+				6F57DF2CCB67CA6EB38DE5EE /* Pods_22_MessagesExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,11 +125,23 @@
 			isa = PBXGroup;
 			children = (
 				19F22AF223DA044200E418BF /* MessagesViewController.swift */,
+				19EEB86123E8881400E9AB71 /* AppDelegate.swift */,
 				19F22AF423DA044200E418BF /* MainInterface.storyboard */,
 				19F22AF723DA044300E418BF /* Assets.xcassets */,
 				19F22AF923DA044300E418BF /* Info.plist */,
 			);
 			path = "22 MessagesExtension";
+			sourceTree = "<group>";
+		};
+		1DE8D5F7A1C0D242A7CD44AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEE32301EF64C00634743B06 /* Pods-22.debug.xcconfig */,
+				13331D282EA0ABDFB150DFDA /* Pods-22.release.xcconfig */,
+				AE98511003A25183B70CBD34 /* Pods-22 MessagesExtension.debug.xcconfig */,
+				4DB7AAFBDD6AAAEA394A3230 /* Pods-22 MessagesExtension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,8 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19F22B0023DA044300E418BF /* Build configuration list for PBXNativeTarget "22" */;
 			buildPhases = (
+				CB65D8563E044A6D5A5493AC /* [CP] Check Pods Manifest.lock */,
 				19F22ADE23DA044000E418BF /* Resources */,
 				19F22AFF23DA044300E418BF /* Embed App Extensions */,
+				7992EB4A54034E405A0CFA50 /* Frameworks */,
+				D07DF47FE6F0714A5B4170BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19F22AFC23DA044300E418BF /* Build configuration list for PBXNativeTarget "22 MessagesExtension" */;
 			buildPhases = (
+				664B596791441EFADC542E9F /* [CP] Check Pods Manifest.lock */,
 				19F22AE623DA044200E418BF /* Sources */,
 				19F22AE723DA044200E418BF /* Frameworks */,
 				19F22AE823DA044200E418BF /* Resources */,
@@ -159,6 +197,7 @@
 				TargetAttributes = {
 					19F22ADF23DA044000E418BF = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					19F22AE923DA044200E418BF = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -204,11 +243,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		664B596791441EFADC542E9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-22 MessagesExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB65D8563E044A6D5A5493AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-22-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D07DF47FE6F0714A5B4170BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-22/Pods-22-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-22/Pods-22-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-22/Pods-22-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19F22AE623DA044200E418BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EEB86223E8881400E9AB71 /* AppDelegate.swift in Sources */,
 				19F22AF323DA044200E418BF /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +455,7 @@
 		};
 		19F22AFD23DA044300E418BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE98511003A25183B70CBD34 /* Pods-22 MessagesExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
@@ -371,6 +476,7 @@
 		};
 		19F22AFE23DA044300E418BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB7AAFBDD6AAAEA394A3230 /* Pods-22 MessagesExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CODE_SIGN_STYLE = Automatic;
@@ -391,14 +497,22 @@
 		};
 		19F22B0123DA044300E418BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE32301EF64C00634743B06 /* Pods-22.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TAJ24S7FZM;
 				INFOPLIST_FILE = 22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wakuike.-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -406,12 +520,19 @@
 		};
 		19F22B0223DA044300E418BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13331D282EA0ABDFB150DFDA /* Pods-22.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TAJ24S7FZM;
 				INFOPLIST_FILE = 22/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wakuike.-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
