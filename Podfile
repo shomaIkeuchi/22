@@ -11,7 +11,7 @@ target '22' do
 pod 'Firebase/Core'
 pod 'Firebase/Firestore'
 pod 'Firebase/Auth'
-
+pod 'Firebase'
 end
 
 target '22 MessagesExtension' do
